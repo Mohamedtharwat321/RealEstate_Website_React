@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import { motion } from "motion/react";
-import headerImage from '../assets/header_img.png'; // adjust the path as needed
+import headerImage from '../assets/header_img.webp'; // adjust the path as needed
 
 
 const Header = () => {
