@@ -1,8 +1,6 @@
-import React from "react";
-import Head from "../utils/head";
 import { assets } from "../assets/assets";
 import { motion } from "motion/react";
-
+import Head from "../utils/Head";
 
 const About = () => {
   return (
@@ -48,8 +46,8 @@ const About = () => {
             <p className="text-gray-600 max-w-md mb-8">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of type
-              and scrambled it to make a type specimen book.
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
             </p>
             <button className="bg-s2 text-white font-medium rounded px-7 py-2 hover:bg-s3">
               Learn more

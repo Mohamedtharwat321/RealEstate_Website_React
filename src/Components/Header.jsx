@@ -1,12 +1,13 @@
-import React from "react";
 import Navbar from "./Navbar";
 import { motion } from "motion/react";
+import headerImage from '../assets/header_img.png'; // adjust the path as needed
+
 
 const Header = () => {
   return (
     <div
       className="min-h-screen bg-cover bg-center flex items-center"
-      style={{ backgroundImage: "url('/src/assets/header_img.png')" }}
+      style={{ backgroundImage: `url(${headerImage})` }}
       id="Header"
     >
       <Navbar />
