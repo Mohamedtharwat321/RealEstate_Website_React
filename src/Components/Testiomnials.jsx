@@ -1,6 +1,5 @@
-import React from "react";
-import Head from "../utils/head";
-import { assets, testimonialsData } from "../assets/assets";
+import Head from "../utils/Head";
+import { testimonialsData } from "../assets/assets";
 import { motion } from "motion/react";
 
 const Testiomnials = () => {
@@ -19,7 +18,7 @@ const Testiomnials = () => {
           tex="Testimonials"
           info="Real Stories from Those Who Found Home with Us"
         />
-      
+
         <div className="flex flex-wrap justify-center gap-8">
           {testimonialsData.map((test, idx) => (
             <div
@@ -45,9 +44,9 @@ const Testiomnials = () => {
                 ))}
               </div>
               <p className="text-p3 group-hover:text-white">
-                From the very first meeting, they understood my vision and helped
-                me find the perfect property. Their attention to detail and
-                commitment to client satisfaction is unmatched.
+                From the very first meeting, they understood my vision and
+                helped me find the perfect property. Their attention to detail
+                and commitment to client satisfaction is unmatched.
               </p>
             </div>
           ))}

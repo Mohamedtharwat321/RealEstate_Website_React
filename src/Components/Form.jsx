@@ -1,5 +1,5 @@
 import React from "react";
-import Head from "../utils/head";
+import Head from "../utils/Head";
 import { toast } from "react-toastify";
 import { motion } from "motion/react";
 

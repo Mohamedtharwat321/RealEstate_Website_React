@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import Head from "../utils/head";
+import  { useEffect, useState } from "react";
+import Head from "../utils/Head";
 import { assets, projectsData } from "../assets/assets";
 import { motion } from "motion/react";
 
