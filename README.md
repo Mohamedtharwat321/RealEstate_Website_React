@@ -8,7 +8,7 @@
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
-- [Installation](#installation)
+- [Installation & Usage](#installation--usage)
 - [Technologies Used](#technologies-used)
 
 
