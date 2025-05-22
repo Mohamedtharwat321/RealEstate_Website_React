@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.light {
+  --p1: 0, 0, 0;
+  --p2: 107, 114, 128;
+  --p3: 31, 41, 55;
+  --s1: 255, 255, 255;
+  --s2: 37, 99, 235;
+  --s3: 59, 130, 246;
+}
+.dark {
+  --p1: 0, 0, 0;
+}
